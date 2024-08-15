@@ -1,0 +1,679 @@
+/*Version Desktop*/
+
+
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+    font-family:'Be Vietnam Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+        background-color:#FFFFFF;
+        width: 100%;
+    }
+.flex {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+
+/*HEADER*/
+
+.Encabezado {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center; 
+    
+}
+
+.contenedor-foto{
+    width: 20%;
+    
+}
+.logo-empresa{
+       
+width: 70%;
+}
+
+.lista-encabezado{
+    width: 90%;
+}
+
+.contenedor-nav{
+    width: 50%;
+}
+
+.first-list { 
+    
+    display: flex;
+    font-size: 10px;
+    color: #242E52;
+    line-height: 176%;
+    padding: 0%;     
+    margin-left: 7%;
+    padding-right:10%; 
+
+}
+
+.a{
+    text-decoration: none;
+    color: #790e0e; 
+    margin-left: 7px;
+    margin-right: 10px;
+    font-size: 23px;
+    font-style: bold;
+    
+    
+}
+
+.button-contac {
+    background-color: #e2c1c1;
+    height: 50px;
+    width: 134px;
+    border-radius: 50px;
+    color: #FFFFFF;
+    border:0px;
+    text-align: center;
+    background-color: #9c3912;
+    text-align: center;
+    padding-left: 5px;
+
+}
+
+.list-hamb {
+    display: none;
+    width: 15%px;     
+}
+
+
+
+.emblema{
+    margin-left:50%;
+    margin-top:10%;
+    
+}
+
+/*MAIN ESTILOS*/
+
+.first-section{
+    
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 6rem;
+    padding: 5% 10%;
+}
+
+.grilla{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.first-imagen {
+    justify-content: center;
+    width: 120%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+
+
+     
+}
+
+.contenedor-main {
+    
+    
+    justify-content: center;
+       
+}
+
+
+.frase-inicial{
+    width: 450px;
+    height: 228px;
+    color: #232C50;
+    text-align: right;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 114%;
+    margin-left: 11%;
+
+}
+#texto-2 {
+    width: 450px;
+    height: 71px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.5584px;
+    line-height: 100%;
+    margin-left: 13%;
+    
+   }
+
+.boton-violeta main{
+    justify-content: flex-end;    
+    
+}
+
+.segundo-boton {
+    margin-left: 56%;
+}
+
+
+
+/*ESTILOS DE SECCIÓN VIOLETA*/
+
+
+.second-section {
+    
+    width: 100%;
+    background: #8B48BF;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 151.1%;
+    padding: 5%;
+    gap: 30px;
+    text-align: left;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.posicion-violeta-chico{
+    align-content: flex-end;
+    margin-top: 2%;
+}
+
+
+.texto-blanco-grande{
+    width: 450px;
+    height: 88px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 114%;
+    margin-top: 5%;
+    
+    color: #FFFFFF;
+}
+
+#texto-blanco-chico{
+    width: 450px;
+    height: 88px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151%;
+    color: #FFFFFF;
+   
+}
+
+
+/* Estilos CUADROS CON NUMEROS*/
+
+.notas {
+    display: flex;
+    flex-direction: column;  
+}
+
+.ultimo-cuadro{
+    margin-right: 24%;
+}
+
+.third-section {
+    flex-direction: row;
+    margin-top: 5%;
+    justify-content: space-around;
+    
+}
+
+.fourth-section {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    margin-top: 5%;
+    align-items: center;
+}
+
+
+
+.boton-titulo {
+    
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 25px;
+    background: #a9130b;
+    border-radius: 12Px; 
+    color:white;  
+}
+
+.boton-comentario {
+    display: flex;
+    align-items: center;
+    width: 437px;
+    height: 104px;
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.2984px;
+    line-height: 26px;
+    color: #B3B2B7;
+   
+}
+
+
+
+
+/*ESTILOS TARJETAS Seccion News*/
+
+.section-news {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 6%;
+    margin-top: 8%;
+    color:#242E53;
+    font-weight: 700;
+    font-size: 39.2143px;
+
+}
+
+.cajas {
+    
+    box-sizing: border-box;
+    width: 45%;
+    height: 5%;
+    margin-left: 2%;
+    margin-right: 10%;   
+    
+
+}
+
+.foto-novedades {
+    width: 80%;
+    margin-left: 24%;
+    border-radius: 5%;
+}
+
+.h6 {
+
+    margin-left: 45%;   
+    color: #3F4868; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.0714px;
+}
+
+.historia {
+    
+    width: 100%;
+    height: 10%;
+
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 156.6%;
+
+    margin-left: 15%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #B9B9C1;
+}
+
+.cartas {
+    margin-top: 5%;
+    margin-left: 46%;
+} 
+
+/*Seccion Go for it*/
+
+
+.contenedor-violeta {
+   
+    height: 50%;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.get {
+    width: 80%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.005em;
+    
+    
+    
+}
+
+.ultimo-boton {
+    
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4%;
+    gap: 25px;
+    width: 134px;
+    height: 44px;
+    background: #3a0606;
+    box-shadow: 0px 4px 8px rgba(206, 14, 14, 0.25);
+    border-radius: 50px;
+    
+}
+
+
+/* ESTILOS FOOTER */
+
+.footer {
+    flex-direction: row;
+    background: #1E1E26;
+    justify-content: space-around;
+    
+    
+}
+
+
+.logo-final¨{
+    width: 10%;
+}
+.fede{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pie-marca{
+    margin: 20px 90px;
+    display: flex;
+    align-items: flex-end; 
+    
+}
+.pie-foto{
+    margin: 5%;
+
+}
+
+.primera{
+    align-items: center;
+
+}
+
+.but {
+    padding: 0 40px;
+    margin-left: 10%;
+    text-align: center;
+    width: 63px;
+    height: 42px;
+    background: #8B48BF;
+    border-radius: 50px;
+}
+.footer-list{
+    display: flex;
+    align-items:row;
+
+}
+.lista {
+    margin: 20px 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-left: 30%; 
+    margin-top: 80%;
+        
+}
+
+.ultimo-boton {
+    border: none; 
+    align-items: center;
+    width: 134px;
+    height: 44px;
+    margin-top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.ultimo-b{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 201px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    margin-right: 50%; 
+}
+
+.copy{
+    
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.5px;
+    display: flex;
+    align-items: center;
+    color: #8C8C94;
+    
+}
+
+.last-boton{
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13;
+    
+    border: none; 
+    align-items: center;
+    width: 110px;
+    height: 44px;
+    background: #FFFFFF;
+}
+
+.in{
+    border: none;
+}
+
+.finish{
+    margin: 40px 130px;
+    align-items: flex-end;
+    flex-direction: column;    
+}
+
+
+/*Version MOBILE*/
+
+
+
+
+@media screen and (max-width: 480px) {
+    
+    .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 480px;}
+
+.Encabezado-hdr {
+    width: 367.68px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+      
+.fue {display: none;}
+
+.list-hamb {
+    display: block;
+    display: flex;
+    position: relative;
+    left:60%;
+    top:10%;
+}
+
+.padel {
+    flex-direction: column; 
+    right: 50%;
+}
+
+.contenedor-main{
+   
+    width: 480px;
+}
+
+
+
+.contenedor-violeta{
+    flex-direction: column;
+    position: relative;
+    width: 480px;
+    background: #3CDDF3;
+    
+}
+.texto-blanco-grande{
+    width: 440px;
+    height: 88px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 114.6%;
+}
+
+.posicion-violeta-chico{
+    width: 440px;
+    height: 88px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.1%;
+    margin-bottom: 10%;
+}
+
+.cuadros{
+    display: flex;
+    flex-direction: column;
+    position: relative;}
+
+.notas { 
+    margin-left: 10%;
+}
+.mo {
+    margin-left: 10%;
+}
+h3 {
+background: rgba(139, 72, 191, 0.3);
+height: 43px;
+display: flex;
+align-items: center;
+}
+.ultimo-cuadro {
+    width: 435px;
+    margin-left:30%;
+}
+
+.subtitulo {
+    width: 150%;
+    height: 50%;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 156.6%;
+    display: flex;
+    align-items: center;
+    margin-left: 17%;
+}
+
+.tarjeta-1 {
+    display: flex;
+    flex-direction: column;
+}
+.tarjeta-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.cajas{
+    margin-right: 50%;
+    width: 430px;
+    height: 219px;
+    left: 8px;
+    top: 5px;
+    padding: 0% 5%;
+    
+    background: #FAFAFA;
+}
+
+.cartas{
+    position: relative;
+    right: 35px;
+}
+.get{
+    position: relative;
+    left: 8%;    
+}
+
+.ultimo-boton {
+    position: relative;
+    right: 12%;   
+    background: #232C50;
+    color:white;
+}
+
+.foot{
+    flex-direction: column-reverse;
+    height: 534.71px;
+    width: 480px;
+}
+
+.ultimo-b {
+    position: relative;
+    left: 19%;    
+}
+
+.but{
+    background: #8B48BF;
+}
+
+.copy{
+    position: relative;
+    top: 400px;
+    left: 10%;
+    font-weight: 500;
+    font-size: 12.5px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #8C8C94;
+}
+
+.primera {
+    position: relative;
+    bottom: 130px;
+    right: 20%;
+}
+
+.segunda {
+    position: relative;
+    bottom:25px; 
+    left: 90px;
+}
+
+.pie-marca{
+    position: relative;
+    bottom:150px;  
+}
+
+}
+
+
+
+
+
+
